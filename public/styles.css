@@ -1,0 +1,39 @@
+body{
+  background-image: url("images/thinkingEmoji.png");
+  background-color: rgba(247, 247,247, 1);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+main{
+  margin: 150px 50px;
+}
+
+h1{
+  font-size: 56px;
+}
+
+button{
+  color: black;
+  background-color: rgba(249,215,50,1);
+  border-radius: 6px;
+}
+
+h2{
+  font-size: 48px;
+}
+
+h3{
+  font-size: 36px;
+}
+
+ul{
+  margin-top: 50px;
+}
+
+li{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

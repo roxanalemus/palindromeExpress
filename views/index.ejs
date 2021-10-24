@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PalindromeemordnilaP</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Palindrome Checker</h1>
+
+      <h2>Is it a palindrome?</h2>
+
+      <form action="/messages" method="POST">
+        <input type="text" placeholder="Enter your word here" name="msg">
+        <button type="submit">Submit</button>
+      </form>
+
+
+      <ul class="messages">
+        <% for(var i=0; i<messages.length; i++) {%>
+          <li class="message">
+            <!-- <span><%= messages[i].name %></span> -->
+            <span><%= messages[i].msg %></span>
+            <span><%= messages[i].palindrome%></span>
+            <!-- <span><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+            <span><i class="fa fa-thumbs-down" aria-hidden="true"></i></span> -->
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+          </li>
+        <% } %>
+        </ul>
+
+      <script src="main.js"></script>
+  </main>
+</body>
+</html>
